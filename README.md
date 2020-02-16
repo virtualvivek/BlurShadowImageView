@@ -26,6 +26,8 @@
 
 <p align="center">This library provides drop shdows to ImageView according to the image similar to <code>ios backdrop shadows</code>.This custom ImageView extends android ImageView to provide backdrop shadows effect.The similar shadow blurred effects can also be seen in <mark>iOS Music App.</mark></p>
 
+<p align="center"><img src="https://github.com/vivekverma007/BlurShadowImageView/blob/master/preview/app_icon_demo.jpg" width="620" /> </p> 
+
 ## License
 
 `BlurShadowImageView` is Licensed under `MIT LICENSE` .
