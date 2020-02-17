@@ -28,6 +28,67 @@
 
 <p align="center"><img src="https://github.com/vivekverma007/BlurShadowImageView/blob/master/preview/app_icon_demo.jpg" width="620" /> </p> 
 
+## Installation
+Add it in your root build.gradle at the end of repositories:
+```js
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+ 
+```
+
+Add the following dependency to your app build.gradle file:
+```js
+dependencies {
+	        implementation 'com.github.vivekverma007:BlurShadowImageView:-SNAPSHOT'
+	}
+ 
+```
+
+
+## How to use   
+### Using Xml to config
+```xml
+
+ <me.virtualiz.blurshadowimageview.BlurShadowImageView
+                android:layout_width="200dp"
+                android:layout_height="220dp"
+                android:layout_gravity="center"
+                app:v_shadowOffset="40dp"  //sets offset b/w image and shadow
+                app:v_imageRound="20dp"  //sets border radius
+                app:v_imageSrc="@drawable/nature" />
+```
+
+###  Use Java code to config
+```js
+BlurShadowImageView blurshadowimageview = (BlurShadowImageView)findViewById(R.id.blurSImageView);
+
+//Sets Border Round 
+blurshadowimageview.setRound((int) value);  
+
+//Sets Image Resource
+blurshadowimageview.setImageResource(ImgRes);  
+
+//Sets Image Drawable
+blurshadowimageview.setImageDrawable(drawable);  
+
+//Sets Image Bitmap
+blurshadowimageview.setImageBitmap(bitmap);  
+
+```
+
+#### Xml attr 
+ ##### SmoothRefreshLayout 
+ |Name|Format|Defalut|
+ |:---:|:---:|:---:|
+ |app:v_imageRound|dimension|10dp|
+ |app:v_imageSrc|reference|image|
+ |app:v_shadowOffset|dimension|40dp|
+ 
+
 ## License
 
 BlurShadowImageView is licensed under `MIT license`. View [license](https://github.com/vivekverma007/BlurShadowImageView/blob/master/LICENSE).<br>
