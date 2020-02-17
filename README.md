@@ -63,7 +63,7 @@ dependencies {
 ```
 
 ###  Use Java code to config
-```java
+```js
 BlurShadowImageView blurshadowimageview = (BlurShadowImageView)findViewById(R.id.blurSImageView);
 
 //Sets Border Round 
