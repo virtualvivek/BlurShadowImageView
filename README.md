@@ -81,11 +81,11 @@ blurshadowimageview.setImageBitmap(bitmap);
 ```
 
 #### Xml attr 
- ##### SmoothRefreshLayout 
+ ##### BlurShadowImageView
  |Name|Format|Defalut|
  |:---:|:---:|:---:|
- |app:v_imageRound|dimension|10dp|
- |app:v_imageSrc|reference|image|
+ |app:v_imageRound  |dimension|10dp|
+ |app:v_imageSrc    |reference|image|
  |app:v_shadowOffset|dimension|40dp|
  
 
