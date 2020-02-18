@@ -16,6 +16,11 @@
     <img src="https://img.shields.io/github/repo-size/vivekverma007/BlurShadowImageView.svg?color=e91e63"
       alt="MinSDK" />
   </a>
+  
+  <a href="https://jitpack.io/#vivekverma007/BlurShadowImageView">
+    <img src="https://jitpack.io/v/vivekverma007/BlurShadowImageView.svg?color=34495e"
+      alt="JitPack" />
+  </a>
 
 <a href="https://github.com/vivekverma007/BlurShadowImageView/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/vivekverma007/BlurShadowImageView.svg?color=blue"
@@ -84,8 +89,8 @@ blurshadowimageview.setImageBitmap(bitmap);
  ##### BlurShadowImageView
  |Name|Format|Defalut|
  |:---:|:---:|:---:|
- |app:v_imageRound  |dimension|10dp|
  |app:v_imageSrc    |reference|image|
+ |app:v_imageRound  |dimension|10dp|
  |app:v_shadowOffset|dimension|40dp|
  
 
