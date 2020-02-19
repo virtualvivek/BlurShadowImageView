@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "C:\\Users\\x\\AndroidStudioProjects\\BlurShadowImageView\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\x\\.android\\build-cache\\2e8189552572d1033d9fc02533609ddc0ed6d47b\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\x\\AndroidStudioProjects\\BlurShadowImageView\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\x\\.android\\build-cache\\2e8189552572d1033d9fc02533609ddc0ed6d47b\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\x\\AndroidStudioProjects\\BlurShadowImageView\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\x\\.android\\build-cache\\8e695cde0d5e59d8489e7ddc3a098579144c9ff0\\output\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\x\\AndroidStudioProjects\\BlurShadowImageView\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\x\\.android\\build-cache\\8e695cde0d5e59d8489e7ddc3a098579144c9ff0\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\x\\AndroidStudioProjects\\BlurShadowImageView\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\x\\.android\\build-cache\\8e695cde0d5e59d8489e7ddc3a098579144c9ff0\\output\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\x\\AndroidStudioProjects\\BlurShadowImageView\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\x\\.android\\build-cache\\2e8189552572d1033d9fc02533609ddc0ed6d47b\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\x\\AndroidStudioProjects\\BlurShadowImageView\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\x\\.android\\build-cache\\2e8189552572d1033d9fc02533609ddc0ed6d47b\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\x\\AndroidStudioProjects\\BlurShadowImageView\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\x\\.android\\build-cache\\8e695cde0d5e59d8489e7ddc3a098579144c9ff0\\output\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\x\\AndroidStudioProjects\\BlurShadowImageView\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\x\\.android\\build-cache\\2e8189552572d1033d9fc02533609ddc0ed6d47b\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\x\\AndroidStudioProjects\\BlurShadowImageView\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\x\\.android\\build-cache\\2e8189552572d1033d9fc02533609ddc0ed6d47b\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\x\\AndroidStudioProjects\\BlurShadowImageView\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\x\\.android\\build-cache\\2e8189552572d1033d9fc02533609ddc0ed6d47b\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\x\\AndroidStudioProjects\\BlurShadowImageView\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\x\\.android\\build-cache\\2e8189552572d1033d9fc02533609ddc0ed6d47b\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\x\\AndroidStudioProjects\\BlurShadowImageView\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\x\\.android\\build-cache\\8e695cde0d5e59d8489e7ddc3a098579144c9ff0\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\x\\AndroidStudioProjects\\BlurShadowImageView\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "C:\\Users\\x\\.android\\build-cache\\8e695cde0d5e59d8489e7ddc3a098579144c9ff0\\output\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\x\\AndroidStudioProjects\\BlurShadowImageView\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\x\\.android\\build-cache\\2e8189552572d1033d9fc02533609ddc0ed6d47b\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\x\\AndroidStudioProjects\\BlurShadowImageView\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\x\\.android\\build-cache\\2e8189552572d1033d9fc02533609ddc0ed6d47b\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    }
+]
