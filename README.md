@@ -29,7 +29,7 @@
   
 </p>
 
-<p align="center">This library provides drop shdows to <b>ImageView</b> according to the image similar to <code>ios backdrop shadows</code>.This custom ImageView extends android ImageView to provide backdrop shadows effect.The similar shadow blurred effects can also be seen in <i>iOS Music App.</i></p>
+<p align="center">This library provides drop shdows to <b>ImageView</b> according to the image similar to <code>iOS backdrop shadows</code>.This custom ImageView extends android ImageView to provide backdrop shadows effect.The similar shadow blurred effects can also be seen in <i>iOS Music App.</i></p>
 
 <p align="center"><img src="https://github.com/vivekverma007/BlurShadowImageView/blob/master/preview/app_icon_demo.jpg" width="620" /> </p> 
 
@@ -62,8 +62,8 @@ dependencies {
                 android:layout_width="200dp"
                 android:layout_height="220dp"
                 android:layout_gravity="center"
-                app:v_shadowOffset="40dp"  //sets offset b/w image and shadow
-                app:v_imageRound="20dp"  //sets border radius
+                app:v_shadowOffset="40dp"
+                app:v_imageRound="20dp"
                 app:v_imageSrc="@drawable/nature" />
 ```
 
