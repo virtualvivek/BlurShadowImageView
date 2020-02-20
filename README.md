@@ -2,8 +2,8 @@
 
 <p align="center">
  
- <a href="https://angularjs.org">
-    <img src="https://img.shields.io/badge/Platform-Android-yellow.svg?color=419466"
+ <a href="https://android.com">
+    <img src="https://camo.githubusercontent.com/b56ba74e599ebf4a6d782716b3d63fa39c7e90e2/68747470733a2f2f7777772e636c657665726f61642e636f6d2f7075626c69632f636f6d65726369616c2f6c6162656c2d616e64726f69642e737667" width="120"
       alt="Android" />
   </a>
   
