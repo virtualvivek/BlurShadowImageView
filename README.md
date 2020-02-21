@@ -12,6 +12,12 @@
       alt="MinSDK" />
   </a>
   
+  <a href="https://github.com/vivekverma007/BlurShadowImageView/blob/master/library/src/main/java/me/virtualiz/blurshadowimageview/BlurShadowImageView.java">
+    <img src="https://img.shields.io/github/size/vivekverma007/BlurShadowImageView/library/src/main/java/me/virtualiz/blurshadowimageview/BlurShadowImageView.java?color=16ab9c&label=Library%20Size"
+      alt="Library Size" />
+  </a>
+ 
+  
   <a href="https://developer.android.com/about/versions/android-4.0.html">
     <img src="https://img.shields.io/github/repo-size/vivekverma007/BlurShadowImageView.svg?color=e91e63"
       alt="MinSDK" />
