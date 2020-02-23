@@ -54,7 +54,7 @@ allprojects {
 Add the following dependency to your app build.gradle file:
 ```js
 dependencies {
-	        implementation 'com.github.vivekverma007:BlurShadowImageView:-SNAPSHOT'
+	        implementation 'com.github.vivekverma007:BlurShadowImageView:1.1'
 	}
  
 ```
