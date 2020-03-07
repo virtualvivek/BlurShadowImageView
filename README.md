@@ -39,6 +39,15 @@
 
 <p align="center"><img src="https://github.com/vivekverma007/BlurShadowImageView/blob/master/preview/app_icon_demo.jpg" width="620" /> </p> 
 
+## Download Demo App
+
+Download the demo app `.apk` file from here 
+
+<a href="https://github.com/vivekverma007/BlurShadowImageView/tree/master/app/build/outputs/apk">
+<img src="https://github.com/vivekverma007/BlurShadowImageView/blob/master/preview/app_icon_demo_app.png" width="280"
+      alt="Demo App" /></a>
+
+
 ## Installation
 Add it in your root build.gradle at the end of repositories:
 ```js
