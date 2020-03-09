@@ -102,11 +102,11 @@ blurshadowimageview.setImageBitmap(bitmap);
 
 #### Xml attr 
  ##### BlurShadowImageView
- |Name|Format|Defalut|
- |:---:|:---:|:---:|
- |app:v_imageSrc    |reference|image|
- |app:v_imageRound  |dimension|10dp|
- |app:v_shadowOffset|dimension|40dp|
+ |Name|Format|Defalut|Details|
+ |:---:|:---:|:---:|:---:|
+ |app:v_imageSrc    |reference|image|sets image to the ImageView|
+ |app:v_imageRound  |dimension|10dp|sets border radius to the ImageView|
+ |app:v_shadowOffset|dimension|40dp|configure the distance between the Image and the Shadow|
  
 
 ## License
