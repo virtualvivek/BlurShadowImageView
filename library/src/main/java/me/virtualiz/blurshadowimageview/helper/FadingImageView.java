@@ -20,7 +20,6 @@ public class FadingImageView extends ImageView {
     private boolean mFadeLeft;
     private boolean mFadeTop;
     private boolean mFadeBottom;
-
     private Paint paint;
     private Paint paint2;
     private Context c;
@@ -121,11 +120,9 @@ public class FadingImageView extends ImageView {
 
     private int getPixels(int dipValue) {
         Resources r = c.getResources();
-
         return (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,
                 dipValue, r.getDisplayMetrics());
     }
-
 
     @Override
     public void draw(Canvas canvas) {
@@ -135,5 +132,4 @@ public class FadingImageView extends ImageView {
         canvas.drawBitmap(bitmap, 0, 0, paint2);
         bitmap.recycle();
     }
-
 }
