@@ -46,7 +46,10 @@ Download the demo app `.apk` file from here
 <a href="https://github.com/vivekverma007/BlurShadowImageView/tree/master/app/build/outputs/apk">
 <img src="https://github.com/vivekverma007/BlurShadowImageView/blob/master/preview/app_icon_demo_app.png" width="280"
       alt="Demo App" /></a>
-
+      
+## Scan to Download      
+<img src="https://github.com/vivekverma007/BlurShadowImageView/blob/master/apk/app_barcode.PNG" width="180"
+      alt="Demo App" />
 
 ## Installation
 Add it in your root build.gradle at the end of repositories:
