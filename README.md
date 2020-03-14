@@ -43,7 +43,7 @@
 
 Download the demo app `.apk` file from here 
 
-<a href="https://github.com/vivekverma007/BlurShadowImageView/tree/master/app/build/outputs/apk">
+<a href="https://github.com/vivekverma007/BlurShadowImageView/blob/master/apk/BlurShadow.apk">
 <img src="https://github.com/vivekverma007/BlurShadowImageView/blob/master/preview/app_icon_demo_app.png" width="280"
       alt="Demo App" /></a>
       
