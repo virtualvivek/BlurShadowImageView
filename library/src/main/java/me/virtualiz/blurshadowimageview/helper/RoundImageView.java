@@ -24,16 +24,13 @@ public class RoundImageView extends ImageView {
     public RoundImageView(Context context) {
         this(context, null);
     }
-
     public RoundImageView(Context context, AttributeSet attrs) {
         this(context, attrs, 0);
     }
-
     public RoundImageView(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
         init(context);
     }
-
     private void init(Context context) {
         paint = new Paint();
         paint.setColor(Color.WHITE);
@@ -43,7 +40,6 @@ public class RoundImageView extends ImageView {
         paint2 = new Paint();
         paint2.setXfermode(null);
     }
-
     public void setRound(int round) {
         if(round > getWidth()/2 || round > getHeight()/2){
             if(getWidth() > getHeight()){
@@ -56,8 +52,6 @@ public class RoundImageView extends ImageView {
         this.roundWidth = round;
         invalidate();
     }
-
-
     @Override
     public void draw(Canvas canvas) {
         Bitmap bitmap = Bitmap.createBitmap(getWidth(), getHeight(), Bitmap.Config.ARGB_8888);
@@ -70,7 +64,6 @@ public class RoundImageView extends ImageView {
         canvas.drawBitmap(bitmap, 0, 0, paint2);
         bitmap.recycle();
     }
-
     private void drawLiftUp(Canvas canvas) {
         Path path = new Path();
         path.moveTo(0, roundHeight);
@@ -80,7 +73,6 @@ public class RoundImageView extends ImageView {
         path.close();
         canvas.drawPath(path, paint);
     }
-
     private void drawLiftDown(Canvas canvas) {
         Path path = new Path();
         path.moveTo(0, getHeight() - roundHeight);
@@ -90,7 +82,6 @@ public class RoundImageView extends ImageView {
         path.close();
         canvas.drawPath(path, paint);
     }
-
     private void drawRightDown(Canvas canvas) {
         Path path = new Path();
         path.moveTo(getWidth() - roundWidth, getHeight());
@@ -100,7 +91,6 @@ public class RoundImageView extends ImageView {
         path.close();
         canvas.drawPath(path, paint);
     }
-
     private void drawRightUp(Canvas canvas) {
         Path path = new Path();
         path.moveTo(getWidth(), roundHeight);
@@ -110,5 +100,4 @@ public class RoundImageView extends ImageView {
         path.close();
         canvas.drawPath(path, paint);
     }
-
 }
