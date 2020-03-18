@@ -49,20 +49,16 @@ public class BlurShadowImageView extends RelativeLayout {
     public BlurShadowImageView(Context context) {
         this(context, null);
     }
-
     public BlurShadowImageView(Context context, AttributeSet attrs) {
         this(context, attrs, 0);
     }
-
     public BlurShadowImageView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         initView(context, attrs);
     }
-
     public static int dpToPx(int dp){
         return (int) (dp* Resources.getSystem().getDisplayMetrics().density);
     }
-
     private void initView(Context context, AttributeSet attrs) {
 
         setGravity(Gravity.CENTER);
@@ -130,25 +126,21 @@ public class BlurShadowImageView extends RelativeLayout {
         });
 
     }
-
     public void setImageResource(int resId) {
         ((RoundImageView) getChildAt(1)).setImageResource(resId);
         invalidate();
         mInvalidat = true;
     }
-
     public void setImageDrawable(Drawable drawable) {
         ((RoundImageView) getChildAt(1)).setImageDrawable(drawable);
         invalidate();
         mInvalidat = true;
     }
-
     public void setImageBitmap(Bitmap bitmap) {
         ((RoundImageView) getChildAt(1)).setImageBitmap(bitmap);
         invalidate();
         mInvalidat = true;
     }
-
     public void setImageRadius(int radius) {
         if (radius > getChildAt(1).getWidth() / 2 || radius > getChildAt(1).getHeight() / 2) {
             if (getChildAt(1).getWidth() > getChildAt(1).getHeight()) {
@@ -163,5 +155,4 @@ public class BlurShadowImageView extends RelativeLayout {
         invalidate();
         mInvalidat = true;
     }
-
 }
