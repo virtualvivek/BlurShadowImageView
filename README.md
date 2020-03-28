@@ -60,16 +60,14 @@ allprojects {
 			maven { url 'https://jitpack.io' }
 		}
 	}
- 
-```
+ ```
 
 Add the following dependency to your app build.gradle file:
 ```js
 dependencies {
 	        implementation 'com.github.vivekverma007:BlurShadowImageView:1.12'
 	}
- 
-```
+ ```
 
 
 ## How to use   
