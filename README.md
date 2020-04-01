@@ -1,4 +1,4 @@
-<h2 align="center"> <img src="https://github.com/vivekverma007/BlurShadowImageView/blob/master/preview/app_icon_title.jpg" width="400" /> </h2>
+<h2 align="center"> <img src="https://github.com/vivekverma007/BlurShadowImageView/blob/master/apk/preview/app_icon_title.jpg" width="400" /> </h2>
 
 <p align="center">
  
@@ -37,14 +37,14 @@
 
 <p align="center">This library provides drop shdows to <b>ImageView</b> according to the image similar to <code>iOS backdrop shadows</code>.This custom ImageView extends android ImageView to provide backdrop shadows effect.The similar shadow blurred effects can also be seen in <i>iOS Music App.</i></p>
 
-<p align="center"><img src="https://github.com/vivekverma007/BlurShadowImageView/blob/master/preview/app_icon_demo.jpg" width="620" /> </p> 
+<p align="center"><img src="https://github.com/vivekverma007/BlurShadowImageView/blob/master/apk/preview/app_icon_demo.jpg" width="620" /> </p> 
 
 ## Download Demo App
 
 Download the demo app `.apk` file here 
 
 <a href="https://github.com/vivekverma007/BlurShadowImageView/blob/master/apk/BlurShadow.apk">
-<img src="https://github.com/vivekverma007/BlurShadowImageView/blob/master/preview/app_icon_demo_app.png" width="280"
+<img src="https://github.com/vivekverma007/BlurShadowImageView/blob/master/apk/preview/app_icon_demo_app.png" width="280"
       alt="Demo App" /></a>
       
 ## Scan to Download      
