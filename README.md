@@ -35,7 +35,7 @@
   
 </p>
 
-<p align="center">This library provides drop shdows to <b>ImageView</b> according to the image similar to <code>iOS backdrop shadows</code>.This custom ImageView extends android ImageView to provide backdrop shadows effect.The similar shadow blurred effects can also be seen in <i>iOS Music App.</i></p>
+<p align="center">This library provides blurred drop shadows to <b>ImageView</b> similar to <code>iOS backdrop shadows</code>.Provides fast canvas draw as no renderscript needed .The similar shadow blurred effects can also be seen in <i>iOS Music App.</i></p>
 
 <p align="center"><img src="https://github.com/vivekverma007/BlurShadowImageView/blob/master/apk/preview/app_icon_demo.jpg" width="620" /> </p> 
 
@@ -52,7 +52,7 @@ Download the demo app `.apk` file here
       alt="Demo App" />
 
 ## Installation
-Add it in your root build.gradle at the end of repositories:
+Add it in your root build.gradle at the end of repositories :
 ```js
 allprojects {
 		repositories {
@@ -62,7 +62,7 @@ allprojects {
 	}
  ```
 
-Add the following dependency to your app build.gradle file:
+Add the following dependency to your app build.gradle file :
 ```js
 dependencies {
 	        implementation 'com.github.vivekverma007:BlurShadowImageView:1.12'
