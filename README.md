@@ -113,4 +113,4 @@ blurshadowimageview.setImageBitmap(bitmap);
 ## License
 
 BlurShadowImageView is licensed under `MIT license`. View [license](https://github.com/vivekverma007/BlurShadowImageView/blob/master/LICENSE).<br>
-Copyright (c) 2020 ` Vivek Verma `
+Copyright (c) 2020 ` Vivek Verma .`
