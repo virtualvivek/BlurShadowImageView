@@ -87,7 +87,7 @@ dependencies {
 ```js
 BlurShadowImageView blurshadowimageview = (BlurShadowImageView)findViewById(R.id.blurSImageView);
 
-//Sets Border Round 
+//Sets Border Round Radius
 blurshadowimageview.setRound((int) value);  
 
 //Sets Image Resource
