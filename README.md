@@ -12,6 +12,11 @@
       alt="MinSDK" />
   </a>
   
+  <a href="https://jitpack.io/#vivekverma007/BlurShadowImageView">
+    <img src="https://jitpack.io/v/vivekverma007/BlurShadowImageView.svg?color=34495e"
+      alt="JitPack" />
+  </a>
+  
   <a href="https://github.com/vivekverma007/BlurShadowImageView/blob/master/library/src/main/java/me/virtualiz/blurshadowimageview/BlurShadowImageView.java">
     <img src="https://img.shields.io/github/size/vivekverma007/BlurShadowImageView/library/src/main/java/me/virtualiz/blurshadowimageview/BlurShadowImageView.java?color=16ab9c&label=Library%20Size"
       alt="Library Size" />
@@ -23,10 +28,7 @@
       alt="MinSDK" />
   </a>
   
-  <a href="https://jitpack.io/#vivekverma007/BlurShadowImageView">
-    <img src="https://jitpack.io/v/vivekverma007/BlurShadowImageView.svg?color=34495e"
-      alt="JitPack" />
-  </a>
+  
 
 <a href="https://github.com/vivekverma007/BlurShadowImageView/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/vivekverma007/BlurShadowImageView.svg?color=blue"
