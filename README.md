@@ -28,12 +28,7 @@
       alt="MinSDK" />
   </a>
   
-  
 
-<a href="https://github.com/virtualvivek/BlurShadowImageView/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/virtualvivek/BlurShadowImageView.svg?color=blue"
-      alt="License: MIT" />
-  </a>
   
 </p>
 
