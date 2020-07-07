@@ -1,4 +1,4 @@
-<h2 align="center"> <img src="https://github.com/vivekverma007/BlurShadowImageView/blob/master/apk/preview/app_icon_title.jpg" width="400" /> </h2>
+<h2 align="center"> <img src="https://github.com/virtualvivek/BlurShadowImageView/blob/master/apk/preview/app_icon_title.jpg" width="400" /> </h2>
 
 <p align="center">
  
@@ -12,26 +12,26 @@
       alt="MinSDK" />
   </a>
   
-  <a href="https://jitpack.io/#vivekverma007/BlurShadowImageView">
-    <img src="https://jitpack.io/v/vivekverma007/BlurShadowImageView.svg?color=34495e"
+  <a href="https://jitpack.io/#virtualvivek/BlurShadowImageView">
+    <img src="https://jitpack.io/v/virtualvivek/BlurShadowImageView.svg?color=34495e"
       alt="JitPack" />
   </a>
   
-  <a href="https://github.com/vivekverma007/BlurShadowImageView/blob/master/library/src/main/java/me/virtualiz/blurshadowimageview/BlurShadowImageView.java">
-    <img src="https://img.shields.io/github/size/vivekverma007/BlurShadowImageView/library/src/main/java/me/virtualiz/blurshadowimageview/BlurShadowImageView.java?color=16ab9c&label=Library%20Size"
+  <a href="https://github.com/virtualvivek/BlurShadowImageView/blob/master/library/src/main/java/me/virtualiz/blurshadowimageview/BlurShadowImageView.java">
+    <img src="https://img.shields.io/github/size/virtualvivek/BlurShadowImageView/library/src/main/java/me/virtualiz/blurshadowimageview/BlurShadowImageView.java?color=16ab9c&label=Library%20Size"
       alt="Library Size" />
   </a>
  
   
   <a href="https://developer.android.com/about/versions/android-4.0.html">
-    <img src="https://img.shields.io/github/repo-size/vivekverma007/BlurShadowImageView.svg?color=e91e63"
+    <img src="https://img.shields.io/github/repo-size/virtualvivek/BlurShadowImageView.svg?color=e91e63"
       alt="MinSDK" />
   </a>
   
   
 
-<a href="https://github.com/vivekverma007/BlurShadowImageView/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/vivekverma007/BlurShadowImageView.svg?color=blue"
+<a href="https://github.com/virtualvivek/BlurShadowImageView/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/virtualvivek/BlurShadowImageView.svg?color=blue"
       alt="License: MIT" />
   </a>
   
@@ -39,18 +39,18 @@
 
 <p align="center">This library provides blurred drop shadows to <b>ImageView</b> similar to <code>iOS backdrop shadows</code>.Provides fast canvas draw as no renderscript needed .The similar shadow blurred effects can also be seen in <i>iOS Music App.</i></p>
 
-<p align="center"><img src="https://github.com/vivekverma007/BlurShadowImageView/blob/master/apk/preview/app_icon_demo.jpg" width="620" /> </p> 
+<p align="center"><img src="https://github.com/virtualvivek/BlurShadowImageView/blob/master/apk/preview/app_icon_demo.jpg" width="620" /> </p> 
 
 ## Download Demo App
 
 Download the demo app <code><b>.apk</b></code> file here 
 
-<a href="https://github.com/vivekverma007/BlurShadowImageView/blob/master/apk/BlurShadow.apk">
-<img src="https://github.com/vivekverma007/BlurShadowImageView/blob/master/apk/preview/app_icon_demo_app.png" width="280"
+<a href="https://github.com/virtualvivek/BlurShadowImageView/blob/master/apk/BlurShadow.apk">
+<img src="https://github.com/virtualvivek/BlurShadowImageView/blob/master/apk/preview/app_icon_demo_app.png" width="280"
       alt="Demo App" /></a>
       
 ## Scan to Download      
-<img src="https://github.com/vivekverma007/BlurShadowImageView/blob/master/apk/app_barcode.PNG" width="180"
+<img src="https://github.com/virtualvivek/BlurShadowImageView/blob/master/apk/app_barcode.PNG" width="180"
       alt="Demo App" />
 
 ## Installation
@@ -67,7 +67,7 @@ allprojects {
 Add the following dependency to your app build.gradle file :
 ```js
 dependencies {
-	        implementation 'com.github.vivekverma007:BlurShadowImageView:1.12'
+	        implementation 'com.github.virtualvivek:BlurShadowImageView:1.12'
 	}
  ```
 
@@ -114,5 +114,5 @@ blurshadowimageview.setImageBitmap(bitmap);
 
 ## License
 
-BlurShadowImageView is licensed under `MIT license`. View [license](https://github.com/vivekverma007/BlurShadowImageView/blob/master/LICENSE).<br>
+BlurShadowImageView is licensed under `MIT license`. View [license](https://github.com/virtualvivek/BlurShadowImageView/blob/master/LICENSE).<br>
 Copyright (c) 2020 ` Vivek Verma .`
