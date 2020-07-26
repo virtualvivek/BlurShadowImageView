@@ -42,17 +42,16 @@
                 android:layout_marginTop="20dp"
                 android:gravity="center"
                 android:text="Library provides ios style backdrop shadows to Imageview"
-                android:textSize="15sp"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                android:textSize="15sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="[     API 17+     ]"
+                android:textColor="#16ab9c"
                 android:textStyle="bold"
+                android:textSize="12.4sp"
                 android:layout_marginBottom="5dp"/>
 
             <TextView
@@ -70,16 +69,9 @@
                 android:layout_gravity="center"
                 android:layout_marginBottom="10dp"
                 android:textColor="#16ab9c"
-                android:text="github.com/vivekverma007/BlurShadowImageView"/>
-
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="Click to visit"
                 android:textStyle="bold"
-                android:layout_marginBottom="5dp"/>
+                android:text="github.com/virtualvivek/BlurShadowImageView"/>
+
 
             <Button
                 style="@style/Base.Widget.AppCompat.Button.Borderless"
@@ -103,9 +95,6 @@
                 android:layout_height="220dp"
                 android:layout_gravity="center"
                 android:layout_marginBottom="24dp"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
                 app:v_imageSrc="@drawable/ironman" />
 
 
@@ -114,9 +103,6 @@
                 android:layout_height="200dp"
                 android:layout_gravity="center"
                 android:layout_marginBottom="24dp"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
                 app:v_imageRound="0dp"
                 app:v_imageSrc="@drawable/product_garments" />
 
@@ -126,9 +112,6 @@
                 android:layout_height="220dp"
                 android:layout_gravity="center"
                 android:layout_marginBottom="24dp"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
                 app:v_imageRound="20dp"
                 app:v_imageSrc="@drawable/nature" />
 
@@ -138,9 +121,6 @@
                 android:layout_height="220dp"
                 android:layout_gravity="center"
                 android:layout_marginBottom="74dp"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
                 app:v_imageRound="15dp"
                 app:v_imageSrc="@drawable/lambo" />
 
