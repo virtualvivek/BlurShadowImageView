@@ -34,7 +34,7 @@ import me.virtualiz.blurshadowimageview.helper.RoundImageView;
 /**
  * ================================================
  * virtualiz.me@gmail.com
- * -version：1.1
+ * -version：1.2
  * -created ：2019/12/02
  * Developed by：
  * Vivek Verma
