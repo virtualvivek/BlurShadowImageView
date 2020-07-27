@@ -48,6 +48,7 @@ Download the demo app <code><b>.apk</b></code> file here
 <img src="apk/app_barcode.PNG" width="180"
       alt="Demo App" />
 
+​
 ## Installation
 Add it in your root build.gradle at the end of repositories :
 ```js
@@ -66,7 +67,7 @@ dependencies {
 	}
  ```
 
-
+​
 ## How to use   
 ### Using Xml to config
 ```xml
@@ -126,8 +127,15 @@ blurshadowimageview.setImageBitmap(bitmap);
 ```
 
 
+​
+## Image Blur Backdrop Offset
+
+<img align="left" src="apk/preview/app_preview_offset.jpg" width="650" />
+
+<p align="right"><br><br><br><br><br><br><br><br><br><br><br><br></p>
 
 
+​
 ## Documentation 
 
  |Name|Format|Default|Details|
