@@ -135,7 +135,6 @@ blurshadowimageview.setImageBitmap(bitmap);
 <p align="right"><br><br><br><br><br><br><br><br><br><br><br><br></p>
 
 
-​
 ## Documentation 
 
  |Name|Format|Default|Details|
