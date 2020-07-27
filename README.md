@@ -1,4 +1,4 @@
-<h2 align="center"> <img src="https://github.com/virtualvivek/BlurShadowImageView/blob/master/apk/preview/app_icon_title.jpg" width="400" /> </h2>
+<h2 align="center"> <img src="apk/preview/app_icon_title.jpg" width="400" /> </h2>
 
 <p align="center">
  
@@ -34,18 +34,18 @@
 
 <p align="center">This library provides blurred drop shadows to <b>ImageView</b> similar to <code>iOS backdrop shadows</code>.Provides fast canvas draw as no renderscript needed .The similar shadow blurred effects can also be seen in <i>iOS Music App.</i></p>
 
-<p align="center"><img src="https://github.com/virtualvivek/BlurShadowImageView/blob/master/apk/preview/app_icon_demo.jpg" width="620" /> </p> 
+<p align="center"><img src="apk/preview/app_icon_demo.jpg" width="620" /> </p> 
 
 ## Download Demo App
 
 Download the demo app <code><b>.apk</b></code> file here 
 
-<a href="https://github.com/virtualvivek/BlurShadowImageView/blob/master/apk/BlurShadow.apk">
-<img src="https://github.com/virtualvivek/BlurShadowImageView/blob/master/apk/preview/app_icon_demo_app.png" width="280"
+<a href="apk/BlurShadow.apk">
+<img src="apk/preview/app_icon_demo_app.png" width="280"
       alt="Demo App" /></a>
       
 ## Scan to Download      
-<img src="https://github.com/virtualvivek/BlurShadowImageView/blob/master/apk/app_barcode.PNG" width="180"
+<img src="apk/app_barcode.PNG" width="180"
       alt="Demo App" />
 
 ## Installation
@@ -97,6 +97,39 @@ blurshadowimageview.setImageDrawable(drawable);
 blurshadowimageview.setImageBitmap(bitmap);  
 
 ```
+
+​
+#  Load image with Picasso
+
+<img align="right" src="apk/preview/app_load_online.gif" width="280" />
+
+
+```js
+​
+ Picasso.with(getBaseContext())
+	 .load("https://i.imgur.com/DvpvklR.png")
+	 .into(new Target() {
+    @Override
+    public void onBitmapLoaded(Bitmap bitmap, Picasso.LoadedFrom loadedFrom) {
+	demo_img.setImageBitmap(bitmap);
+    }
+
+    @Override
+    public void onBitmapFailed(Drawable drawable) {
+	//on failed do something
+    }
+
+    @Override
+    public void onPrepareLoad(Drawable drawable) {
+	//on prepare loading do something
+    }
+});
+		
+		
+```
+
+
+
 
 #### Xml attr 
  ##### BlurShadowImageView
