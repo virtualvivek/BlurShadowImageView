@@ -99,13 +99,12 @@ blurshadowimageview.setImageBitmap(bitmap);
 ```
 
 ​
-#  Load image with Picasso
+##  Load image with Picasso
 
 <img align="right" src="apk/preview/app_load_online.gif" width="280" />
 
 
 ```js
-​
  Picasso.with(getBaseContext())
 	 .load("https://i.imgur.com/DvpvklR.png")
 	 .into(new Target() {
@@ -123,16 +122,14 @@ blurshadowimageview.setImageBitmap(bitmap);
     public void onPrepareLoad(Drawable drawable) {
 	//on prepare loading do something
     }
-});
-		
-		
+});			
 ```
 
 
 
 
-#### Xml attr 
- ##### BlurShadowImageView
+## Documentation 
+
  |Name|Format|Default|Details|
  |:---:|:---:|:---:|:---:|
  |app:v_imageSrc    |reference|image|sets image to the ImageView|
