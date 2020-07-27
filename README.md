@@ -63,7 +63,7 @@ allprojects {
 Add the following dependency to your app build.gradle file :
 ```js
 dependencies {
-	        implementation 'com.github.virtualvivek:BlurShadowImageView:1.12'
+	        implementation 'com.github.virtualvivek:BlurShadowImageView:1.2'
 	}
  ```
 
