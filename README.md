@@ -132,7 +132,7 @@ blurshadowimageview.setImageBitmap(bitmap);
 
 <img align="left" src="apk/preview/app_preview_offset.jpg" width="650" />
 
-<p align="right"><br><br><br><br><br><br><br><br><br><br><br><br></p>
+<p align="right">​​</p>
 
 
 ## Documentation 
@@ -147,4 +147,4 @@ blurshadowimageview.setImageBitmap(bitmap);
 ## License
 
 BlurShadowImageView is licensed under `MIT license`. View [license](https://github.com/virtualvivek/BlurShadowImageView/blob/master/LICENSE).<br>
-Copyright (c) 2020 ` Vivek Verma .`
+Copyright (c) 2020 ` Vivek Verma `
