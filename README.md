@@ -130,9 +130,11 @@ blurshadowimageview.setImageBitmap(bitmap);
 ​
 ## Image Blur Backdrop Offset
 
-<img align="left" src="apk/preview/app_preview_offset.jpg" width="650" />
+<img src="apk/preview/app_preview_offset.jpg" width="650" />
 
-<p align="right">​​</p>
+```
+​
+```
 
 
 ## Documentation 
