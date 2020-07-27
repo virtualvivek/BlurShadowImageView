@@ -31,7 +31,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <TextView
@@ -58,7 +58,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="-- Find it on --"
+                android:text="Find it on"
                 android:textStyle="bold"
                 android:layout_marginBottom="5dp"/>
 
@@ -86,9 +86,31 @@
                 android:layout_marginLeft="20dp"
                 android:textColor="#444"
                 android:textAllCaps="false"
-                android:drawableLeft="@drawable/github"
+                android:textSize="16sp"
+                android:drawableStart="@drawable/github"
                 android:paddingLeft="25dp"
                 android:paddingRight="25dp"/>
+
+            <me.virtualiz.blurshadowimageview.BlurShadowImageView
+                android:layout_width="200dp"
+                android:layout_height="220dp"
+                android:layout_gravity="center"
+                android:id="@+id/demo_img"/>
+
+            <Button
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonLoadImg"
+                android:text="Load Online Image"
+                android:background="@drawable/background_green_round_touchlistner_selector"
+                android:layout_marginBottom="32dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="16sp"
+                android:textColor="@android:color/white"
+                android:textAllCaps="false" />
 
             <me.virtualiz.blurshadowimageview.BlurShadowImageView
                 android:layout_width="200dp"

@@ -20,6 +20,7 @@ import android.content.res.Resources;
 import android.content.res.TypedArray;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.view.Gravity;
@@ -27,7 +28,6 @@ import android.view.ViewTreeObserver;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
-
 import me.virtualiz.blurshadowimageview.helper.FadingImageView;
 import me.virtualiz.blurshadowimageview.helper.RoundImageView;
 
@@ -45,6 +45,9 @@ public class BlurShadowImageView extends RelativeLayout {
     private int imageRound = dpToPx(10);
     private int shadowOffset = dpToPx(50);
     private boolean mInvalidat;
+    private FadingImageView blurImageView;
+    private Bitmap blurredImage;
+    private int imageresource;
 
     public BlurShadowImageView(Context context) {
         this(context, null);
@@ -64,7 +67,7 @@ public class BlurShadowImageView extends RelativeLayout {
         setGravity(Gravity.CENTER);
         setLayerType(LAYER_TYPE_SOFTWARE, null);
 
-        int imageresource = -1;
+        imageresource = -1;
         if (attrs != null) {
             TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.BlurShadowImageView);
 
@@ -81,7 +84,7 @@ public class BlurShadowImageView extends RelativeLayout {
             imageresource = -1;
         }
 
-        //Layer imageView
+        //---- Layer ImageView ---------------------------------------------------------------------
         RoundImageView roundImageView = new RoundImageView(context);
         roundImageView.setScaleType(ImageView.ScaleType.FIT_XY);
 
@@ -91,17 +94,20 @@ public class BlurShadowImageView extends RelativeLayout {
             roundImageView.setImageResource(imageresource);
         }
 
-        //Layer blurView
-        FadingImageView blurImageView = new FadingImageView(context);
+
+        //---- Layer blurView ----------------------------------------------------------------------
+        blurImageView = new FadingImageView(context);
         blurImageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
-
         //Blurring techinique without renderscript --------------
-        BitmapFactory.Options options = new BitmapFactory.Options();
-        options.inSampleSize = 8;
-        Bitmap blurredImage = BitmapFactory.decodeResource(getResources(), imageresource, options);
+        if (imageresource == -1) {
+            blurImageView.setImageResource(android.R.color.transparent);
+        }
+        else {
+            Bitmap bitmap = BitmapFactory.decodeResource(getResources(),imageresource);
+            blurredImage = Bitmap.createScaledBitmap(bitmap,8,8,true);
+            blurImageView.setImageBitmap(blurredImage);
+        }
 
-        //setting blurred image to fadding blur imageview ----
-        blurImageView.setImageBitmap(blurredImage);
 
         LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,LinearLayout.LayoutParams.MATCH_PARENT);
         blurImageView.setLayoutParams(lp);
@@ -121,26 +127,60 @@ public class BlurShadowImageView extends RelativeLayout {
                     N = getChildCount();
                 }
                 ((RoundImageView) getChildAt(1)).setRound(imageRound);
+
                 mInvalidat = true;
             }
         });
 
     }
+
+
     public void setImageResource(int resId) {
+        //Setting RoundedImageView layer
         ((RoundImageView) getChildAt(1)).setImageResource(resId);
+
+        //Setting FadedBlurredImageView layer
+        Bitmap bitmap = BitmapFactory.decodeResource(getResources(),resId);
+        blurredImage = Bitmap.createScaledBitmap(bitmap,8,8,true);
+        ((FadingImageView) getChildAt(0)).setImageBitmap(blurredImage);
+
         invalidate();
         mInvalidat = true;
     }
+
+
+
     public void setImageDrawable(Drawable drawable) {
+        //Setting RoundedImageView layer
         ((RoundImageView) getChildAt(1)).setImageDrawable(drawable);
+
+        //Setting FadedBlurredImageView layer
+        Bitmap bitmap = ((BitmapDrawable)drawable).getBitmap();
+        blurredImage = Bitmap.createScaledBitmap(bitmap,8,8,true);
+        ((FadingImageView) getChildAt(0)).setImageBitmap(blurredImage);
+
+
         invalidate();
         mInvalidat = true;
     }
+
+
+
     public void setImageBitmap(Bitmap bitmap) {
+        //Setting RoundedImageView layer
         ((RoundImageView) getChildAt(1)).setImageBitmap(bitmap);
+
+
+        //Setting FadedBlurredImageView layer
+        blurredImage = Bitmap.createScaledBitmap(bitmap,8,8,true);
+        ((FadingImageView) getChildAt(0)).setImageBitmap(blurredImage);
+
+
         invalidate();
         mInvalidat = true;
     }
+
+
     public void setImageRadius(int radius) {
         if (radius > getChildAt(1).getWidth() / 2 || radius > getChildAt(1).getHeight() / 2) {
             if (getChildAt(1).getWidth() > getChildAt(1).getHeight()) {
@@ -149,10 +189,11 @@ public class BlurShadowImageView extends RelativeLayout {
                 radius = getChildAt(1).getWidth() / 2;
             }
         }
-
         this.imageRound = radius;
         ((RoundImageView) getChildAt(1)).setRound(imageRound);
         invalidate();
         mInvalidat = true;
     }
+
+
 }

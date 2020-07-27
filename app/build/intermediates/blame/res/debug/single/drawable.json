@@ -20,6 +20,10 @@
         "source": "C:\\Users\\x\\.android\\build-cache\\2e8189552572d1033d9fc02533609ddc0ed6d47b\\output\\res\\drawable\\notification_bg.xml"
     },
     {
+        "merged": "D:\\Github\\BlurShadowImageView\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ironman_80.png",
+        "source": "D:\\Github\\BlurShadowImageView\\app\\src\\main\\res\\drawable\\ironman_80.png"
+    },
+    {
         "merged": "D:\\Github\\BlurShadowImageView\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
         "source": "C:\\Users\\x\\.android\\build-cache\\2e8189552572d1033d9fc02533609ddc0ed6d47b\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
     },
@@ -54,6 +58,10 @@
     {
         "merged": "D:\\Github\\BlurShadowImageView\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
         "source": "C:\\Users\\x\\.android\\build-cache\\2e8189552572d1033d9fc02533609ddc0ed6d47b\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\Github\\BlurShadowImageView\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_green_round_touchlistner_selector.xml",
+        "source": "D:\\Github\\BlurShadowImageView\\app\\src\\main\\res\\drawable\\background_green_round_touchlistner_selector.xml"
     },
     {
         "merged": "D:\\Github\\BlurShadowImageView\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
@@ -100,6 +108,10 @@
         "source": "C:\\Users\\x\\.android\\build-cache\\2e8189552572d1033d9fc02533609ddc0ed6d47b\\output\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
+        "merged": "D:\\Github\\BlurShadowImageView\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_green_round_touchlistner.xml",
+        "source": "D:\\Github\\BlurShadowImageView\\app\\src\\main\\res\\drawable\\background_green_round_touchlistner.xml"
+    },
+    {
         "merged": "D:\\Github\\BlurShadowImageView\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
         "source": "C:\\Users\\x\\.android\\build-cache\\2e8189552572d1033d9fc02533609ddc0ed6d47b\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
@@ -114,6 +126,10 @@
     {
         "merged": "D:\\Github\\BlurShadowImageView\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\product_garments.png",
         "source": "D:\\Github\\BlurShadowImageView\\app\\src\\main\\res\\drawable\\product_garments.png"
+    },
+    {
+        "merged": "D:\\Github\\BlurShadowImageView\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_green_round_touchlistner_presses.xml",
+        "source": "D:\\Github\\BlurShadowImageView\\app\\src\\main\\res\\drawable\\background_green_round_touchlistner_presses.xml"
     },
     {
         "merged": "D:\\Github\\BlurShadowImageView\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
