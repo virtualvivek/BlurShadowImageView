@@ -23,16 +23,9 @@
   </a>
  
   
-  <a href="https://developer.android.com/about/versions/android-4.0.html">
-    <img src="https://img.shields.io/github/repo-size/virtualvivek/BlurShadowImageView.svg?color=e91e63"
-      alt="MinSDK" />
-  </a>
-  
-
-  
 </p>
 
-<p align="center">This library provides blurred drop shadows to <b>ImageView</b> similar to <code>iOS backdrop shadows</code>.Provides fast canvas draw as no renderscript needed .The similar shadow blurred effects can also be seen in <i>iOS Music App.</i></p>
+<p align="center">This library provides blurred drop shadows to <b>ImageView</b> similar to <code>iOS backdrop shadows</code>.Provides fast canvas draw as <b>no renderscript</b> needed .The similar shadow blurred effects can also be seen in <i>iOS Music App.</i></p>
 
 <p align="center"><img src="apk/preview/app_icon_demo.jpg" width="620" /> </p> 
 
