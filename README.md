@@ -126,7 +126,6 @@ blurshadowimageview.setImageBitmap(bitmap);
 <img src="apk/preview/app_preview_offset.jpg" width="650" />
 
 ```
-​
 ```
 
 
