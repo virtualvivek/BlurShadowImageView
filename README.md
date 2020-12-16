@@ -3,7 +3,7 @@
 <p align="center">
  
  <a href="https://android.com">
-    <img src="https://camo.githubusercontent.com/b56ba74e599ebf4a6d782716b3d63fa39c7e90e2/68747470733a2f2f7777772e636c657665726f61642e636f6d2f7075626c69632f636f6d65726369616c2f6c6162656c2d616e64726f69642e737667" width="120"
+    <img src="https://img.shields.io/badge/for-android-green.svg?style=flat&logo=android&color=3aab60"
       alt="Android" />
   </a>
   
@@ -41,7 +41,7 @@ Download the demo app <code><b>.apk</b></code> file here
 <img src="apk/app_barcode.PNG" width="180"
       alt="Demo App" />
 
-​
+
 ## Installation
 Add it in your root build.gradle at the end of repositories :
 ```js
