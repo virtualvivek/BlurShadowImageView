@@ -17,6 +17,11 @@
       alt="JitPack" />
   </a>
   
+  <a href="https://www.codacy.com/gh/virtualvivek/BlurShadowImageView/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=virtualvivek/BlurShadowImageView&amp;utm_campaign=Badge_Grade">
+    <img src="https://app.codacy.com/project/badge/Grade/86da5d838ef24e0dbcf482b049b8c27c"
+      alt="Codacy Badge" />
+  </a>
+  
   <a href="https://github.com/virtualvivek/BlurShadowImageView/blob/master/library/src/main/java/me/virtualiz/blurshadowimageview/BlurShadowImageView.java">
     <img src="https://img.shields.io/github/size/virtualvivek/BlurShadowImageView/library/src/main/java/me/virtualiz/blurshadowimageview/BlurShadowImageView.java?color=16ab9c&label=Library%20Size"
       alt="Library Size" />
