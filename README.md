@@ -140,6 +140,9 @@ blurshadowimageview.setImageBitmap(bitmap);
  |app:v_imageRound  |dimension|10dp|sets border radius to the ImageView|
  |app:v_shadowOffset|dimension|40dp|configure the distance between the Image and the Shadow|
  
+ 
+## Find this library useful? :heart:
+Support it by joining [stargazers](https://github.com/virtualvivek/BlurShadowImageView/stargazers) for this repository. :star: 
 
 ## License
 
