@@ -21,7 +21,6 @@
     <img src="https://img.shields.io/github/size/virtualvivek/BlurShadowImageView/library/src/main/java/me/virtualiz/blurshadowimageview/BlurShadowImageView.java?color=16ab9c&label=Library%20Size"
       alt="Library Size" />
   </a>
- 
   
 </p>
 
@@ -38,8 +37,7 @@ Download the demo app <code><b>.apk</b></code> file here
       alt="Demo App" /></a>
       
 ## Scan to Download      
-<img src="apk/app_barcode.PNG" width="180"
-      alt="Demo App" />
+<img src="apk/app_barcode.PNG" width="180" alt="Demo App" />
 
 
 ## Installation
