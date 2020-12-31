@@ -147,4 +147,4 @@ Support it by joining [stargazers](https://github.com/virtualvivek/BlurShadowIma
 ## License
 
 BlurShadowImageView is licensed under `MIT license`. View [license](https://github.com/virtualvivek/BlurShadowImageView/blob/master/LICENSE).<br>
-Copyright (c) 2020 ` Vivek Verma `
+Copyright (c) 2020-21 ` Vivek Verma `
