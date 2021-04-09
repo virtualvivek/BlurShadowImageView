@@ -5,7 +5,7 @@
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
  *
- * https://github.com/virtualvivek/BlurShadowImageView/blob/master/LICENSE
+ * https://github.com/virtualvivek/BlurShadowImageView/blob/main/LICENSE
  *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
@@ -45,9 +45,7 @@ public class BlurShadowImageView extends RelativeLayout {
     private int imageRound = dpToPx(10);
     private int shadowOffset = dpToPx(50);
     private boolean mInvalidat;
-    private FadingImageView blurImageView;
     private Bitmap blurredImage;
-    private int imageresource;
 
     public BlurShadowImageView(Context context) {
         this(context, null);
@@ -63,6 +61,9 @@ public class BlurShadowImageView extends RelativeLayout {
         return (int) (dp* Resources.getSystem().getDisplayMetrics().density);
     }
     private void initView(Context context, AttributeSet attrs) {
+
+        FadingImageView blurImageView;
+        int imageresource;
 
         setGravity(Gravity.CENTER);
         setLayerType(LAYER_TYPE_SOFTWARE, null);
@@ -159,7 +160,6 @@ public class BlurShadowImageView extends RelativeLayout {
         blurredImage = Bitmap.createScaledBitmap(bitmap,8,8,true);
         ((FadingImageView) getChildAt(0)).setImageBitmap(blurredImage);
 
-
         invalidate();
         mInvalidat = true;
     }
@@ -174,7 +174,6 @@ public class BlurShadowImageView extends RelativeLayout {
         //Setting FadedBlurredImageView layer
         blurredImage = Bitmap.createScaledBitmap(bitmap,8,8,true);
         ((FadingImageView) getChildAt(0)).setImageBitmap(blurredImage);
-
 
         invalidate();
         mInvalidat = true;

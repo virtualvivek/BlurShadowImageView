@@ -4,15 +4,15 @@ import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import androidx.appcompat.app.AppCompatActivity;
 import com.squareup.picasso.Picasso;
 import com.squareup.picasso.Target;
+
 import me.virtualiz.blurshadowimageview.BlurShadowImageView;
-import me.virtualiz.blurshadowimageviewEx.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,9 +23,9 @@ public class MainActivity extends AppCompatActivity {
 
         getSupportActionBar().hide();
 
-        Button buttonLink = (Button) findViewById(R.id.buttonLink);
-        final BlurShadowImageView demo_img = (BlurShadowImageView) findViewById(R.id.demo_img);
-        Button load_image_button = (Button) findViewById(R.id.buttonLoadImg);
+        Button buttonLink = findViewById(R.id.buttonLink);
+        final BlurShadowImageView demo_img = findViewById(R.id.demo_img);
+        Button load_image_button = findViewById(R.id.buttonLoadImg);
 
 
         demo_img.setImageResource(R.drawable.ironman_80);
@@ -33,22 +33,22 @@ public class MainActivity extends AppCompatActivity {
         load_image_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Picasso.with(getBaseContext()).load("https://i.imgur.com/DvpvklR.png").into(new Target() {
+                Target target = new Target() {
                     @Override
-                    public void onBitmapLoaded(Bitmap bitmap, Picasso.LoadedFrom loadedFrom) {
+                    public void onBitmapLoaded(Bitmap bitmap, Picasso.LoadedFrom from) {
+                        // Bitmap is loaded, use image here
                         demo_img.setImageBitmap(bitmap);
                     }
-
                     @Override
-                    public void onBitmapFailed(Drawable drawable) {
-
+                    public void onBitmapFailed(Exception e, Drawable d) {
+                        // Fires if bitmap couldn't be loaded.
                     }
-
                     @Override
-                    public void onPrepareLoad(Drawable drawable) {
-
+                    public void onPrepareLoad(Drawable d){
+                        // Fires bitmap on prepare.
                     }
-                });
+                };
+                Picasso.get().load("https://i.imgur.com/DvpvklR.png").into(target);
             }
         });
 
@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        TextView link_text = (TextView) findViewById(R.id.link_text);
+        TextView link_text = findViewById(R.id.link_text);
         link_text.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

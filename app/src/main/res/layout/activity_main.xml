@@ -13,7 +13,8 @@
         android:layout_height="50dp"
         android:orientation="horizontal"
         android:translationZ="2dp"
-        android:elevation="5dp">
+        android:background="#FAFAFA"
+        android:elevation="2dp">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -41,14 +42,14 @@
                 android:layout_marginBottom="5dp"
                 android:layout_marginTop="20dp"
                 android:gravity="center"
-                android:text="Library provides ios style backdrop shadows to Imageview"
+                android:text="Library provides iOS style backdrop shadows to Imageview"
                 android:textSize="15sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="[     API 17+     ]"
+                android:text="[     API 21+     ]"
                 android:textColor="#16ab9c"
                 android:textStyle="bold"
                 android:textSize="12.4sp"

@@ -1,5 +1,6 @@
 package me.virtualiz.blurshadowimageview.helper;
 
+
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.res.Resources;
@@ -20,7 +21,6 @@ public class FadingImageView extends ImageView {
     private boolean mFadeLeft;
     private boolean mFadeTop;
     private boolean mFadeBottom;
-    private Paint paint;
     private Paint paint2;
     private Context c;
 
@@ -43,6 +43,7 @@ public class FadingImageView extends ImageView {
         init();
     }
     private void init() {
+        Paint paint;
         // Enable horizontal fading
         this.setHorizontalFadingEdgeEnabled(true);
         this.setVerticalFadingEdgeEnabled(true);
