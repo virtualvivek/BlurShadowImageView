@@ -149,7 +149,7 @@ Picasso.get().load("https://i.imgur.com/DvpvklR.png").into(target);
 Support it by joining [stargazers](https://github.com/virtualvivek/BlurShadowImageView/stargazers) for this repository. :star:
 
 # Branches
-Branch -version 2.x Current [ <b>AndroidX</b> ] <a href="https://github.com/virtualvivek/BlurShadowImageView/tree/master">View Branch</a><br/>
+Branch -version 2.x [ <b>AndroidX</b> ] Current <a href="https://github.com/virtualvivek/BlurShadowImageView/tree/master">View Branch</a><br/>
 Branch -version 1.x <b>Support Library</b> <a href="https://github.com/virtualvivek/BlurShadowImageView/tree/supportLibrary">View Branch</a>
 
 # License
