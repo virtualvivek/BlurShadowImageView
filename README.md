@@ -106,7 +106,7 @@ blurshadowimageview.setImageBitmap(bitmap);
 	@Override
     	public void onBitmapLoaded(Bitmap bitmap,
 		Picasso.LoadedFrom from) {
-		// Bitmap is loaded, use image here
+		// Bitmap is loaded, use Image here
 		demo_img.setImageBitmap(bitmap);
     	}
     	@Override
