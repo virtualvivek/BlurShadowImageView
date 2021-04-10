@@ -1,4 +1,4 @@
-<h2 align="center"> <img src="apk/preview/app_icon_title.jpg" width="400" /> </h2>
+<h2 align="center"> <img src="apk/preview/app_icon_title.png" width="400" /> </h2>
 
 <p align="center">
  
@@ -31,7 +31,7 @@
 
 <p align="center">This library provides blurred drop shadows to <b>ImageView</b> similar to <code>iOS backdrop shadows</code>.Provides fast canvas draw as <b>no renderscript</b> needed .The similar shadow blurred effects can also be seen in <i>iOS Music App.</i></p>
 
-<p align="center"><img src="apk/preview/app_icon_demo.jpg" width="620" /> </p> 
+<p align="center"><img src="apk/preview/app_icon_demo.png" width="620" /> </p> 
 
 # Download Demo App
 
@@ -130,7 +130,7 @@ Picasso.get().load("https://i.imgur.com/DvpvklR.png").into(target);
 ​
 # Image Blur Backdrop Offset
 
-<img src="apk/preview/app_preview_offset.jpg" width="650" />
+<img src="apk/preview/app_preview_offset.png" width="650" />
 
 ```
 ```
@@ -149,7 +149,7 @@ Picasso.get().load("https://i.imgur.com/DvpvklR.png").into(target);
 Support it by joining [stargazers](https://github.com/virtualvivek/BlurShadowImageView/stargazers) for this repository. :star:
 
 # Branches
-Branch -version 2.x [ <b>AndroidX</b> ] Current <a href="https://github.com/virtualvivek/BlurShadowImageView/tree/master">View Branch</a><br/>
+Branch -version 2.x [ <b>AndroidX</b> ] <a href="https://github.com/virtualvivek/BlurShadowImageView/tree/master">Current Branch</a><br/>
 Branch -version 1.x <b>Support Library</b> <a href="https://github.com/virtualvivek/BlurShadowImageView/tree/supportLibrary">View Branch</a>
 
 # License
