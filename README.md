@@ -59,7 +59,7 @@ allprojects {
 Add the following dependency to your app build.gradle file :
 ```js
 dependencies {
-	        implementation 'com.github.virtualvivek:BlurShadowImageView:1.2'
+	        implementation 'com.github.virtualvivek:BlurShadowImageView:2.0'
 	}
  ```
 
@@ -120,8 +120,8 @@ blurshadowimageview.setImageBitmap(bitmap);
 		// Fires bitmap on prepare.
     	}
 };
-//Use this target for the Picasso.into() method
 
+//Use this target for the Picasso.into() method
 Picasso.get().load("https://i.imgur.com/DvpvklR.png").into(target);
 			
 ```
