@@ -97,7 +97,7 @@
                 android:layout_height="220dp"
                 android:layout_gravity="center"
                 android:id="@+id/demo_img"
-                app:v_imageSrc="@drawable/ironman"/>
+                app:v_imageSrc="@drawable/ironman_80"/>
 
             <Button
                 style="@style/Base.Widget.AppCompat.Button.Borderless"
