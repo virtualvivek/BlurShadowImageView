@@ -30,9 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
         demo_img.setImageResource(R.drawable.ironman_80);
 
-        load_image_button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+        load_image_button.setOnClickListener((View v)-> {
                 Target target = new Target() {
                     @Override
                     public void onBitmapLoaded(Bitmap bitmap, Picasso.LoadedFrom from) {
@@ -49,29 +47,22 @@ public class MainActivity extends AppCompatActivity {
                     }
                 };
                 Picasso.get().load("https://i.imgur.com/DvpvklR.png").into(target);
-            }
         });
 
 
-        buttonLink.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+        buttonLink.setOnClickListener((View v)-> {
                 Uri uri = Uri.parse("https://www.github.com/virtualvivek/BlurShadowImageView");
                 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                 startActivity(intent);
-            }
         });
 
 
 
         TextView link_text = findViewById(R.id.link_text);
-        link_text.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+        link_text.setOnClickListener((View v)-> {
                 Uri uri = Uri.parse("https://www.github.com/virtualvivek/BlurShadowImageView");
                 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                 startActivity(intent);
-            }
         });
 
     }

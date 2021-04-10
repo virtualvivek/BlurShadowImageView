@@ -40,16 +40,16 @@ public class RoundImageView extends ImageView {
         paint2 = new Paint();
         paint2.setXfermode(null);
     }
-    public void setRound(int round) {
-        if(round > getWidth()/2 || round > getHeight()/2){
+    public void setRound(int round_) {
+        if(round_ > getWidth()/2 || round_ > getHeight()/2){
             if(getWidth() > getHeight()){
-                round = getHeight()/2;
+                round_ = getHeight()/2;
             }else{
-                round = getWidth()/2;
+                round_ = getWidth()/2;
             }
         }
-        this.roundHeight = round;
-        this.roundWidth = round;
+        this.roundHeight = round_;
+        this.roundWidth = round_;
         invalidate();
     }
     @Override
