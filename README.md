@@ -7,8 +7,8 @@
       alt="Android" />
   </a>
   
-  <a href="https://developer.android.com/about/versions/android-4.0.html">
-    <img src="https://img.shields.io/badge/MinSdk-17-blue.svg"
+  <a href="https://developer.android.com/about/versions/android-5.0.html">
+    <img src="https://img.shields.io/badge/MinSdk-21-blue.svg"
       alt="MinSDK" />
   </a>
   
@@ -33,7 +33,7 @@
 
 <p align="center"><img src="apk/preview/app_icon_demo.jpg" width="620" /> </p> 
 
-## Download Demo App
+# Download Demo App
 
 Download the demo app <code><b>.apk</b></code> file here 
 
@@ -41,11 +41,11 @@ Download the demo app <code><b>.apk</b></code> file here
 <img src="apk/preview/app_icon_demo_app.png" width="280"
       alt="Demo App" /></a>
       
-## Scan to Download      
+# Scan to Download      
 <img src="apk/app_barcode.PNG" width="180" alt="Demo App" />
 
 
-## Installation
+# Installation
 Add it in your root build.gradle at the end of repositories :
 ```js
 allprojects {
@@ -64,22 +64,24 @@ dependencies {
  ```
 
 ​
-## How to use   
-### Using Xml to config
+# How to use   
+## Using Xml to config
+
 ```xml
 
  <me.virtualiz.blurshadowimageview.BlurShadowImageView
-                android:layout_width="200dp"
-                android:layout_height="220dp"
-                android:layout_gravity="center"
-                app:v_shadowOffset="40dp"
-                app:v_imageRound="20dp"
-                app:v_imageSrc="@drawable/nature" />
+	android:layout_width="200dp"
+	android:layout_height="220dp"
+	android:layout_gravity="center"
+	app:v_shadowOffset="40dp"
+	app:v_imageRound="20dp"
+	app:v_imageSrc="@drawable/nature" />
+
 ```
 
-###  Use Java code to config
+##  Use Java code to config
 ```js
-BlurShadowImageView blurshadowimageview = (BlurShadowImageView)findViewById(R.id.blurSImageView);
+BlurShadowImageView blurshadowimageview = findViewById(R.id.blurSImageView);
 
 //Sets Border Round Radius
 blurshadowimageview.setRound((int) value);  
@@ -96,35 +98,37 @@ blurshadowimageview.setImageBitmap(bitmap);
 ```
 
 ​
-##  Load image with Picasso
+#  Load image with Picasso
 
 <img align="right" src="apk/preview/app_load_online.gif" width="280" />
 
 
 ```js
- Picasso.with(getBaseContext())
-	 .load("https://i.imgur.com/DvpvklR.png")
-	 .into(new Target() {
-    @Override
-    public void onBitmapLoaded(Bitmap bitmap, Picasso.LoadedFrom loadedFrom) {
-	demo_img.setImageBitmap(bitmap);
-    }
+ Target target = new Target() {
+	@Override
+    	public void onBitmapLoaded(Bitmap bitmap,
+		Picasso.LoadedFrom from) {
+		// Bitmap is loaded, use Image here
+		demo_img.setImageBitmap(bitmap);
+    	}
+    	@Override
+    	public void onBitmapFailed(Exception e, Drawable d) {
+		// Fires if bitmap couldn't be loaded.
+    	}
+    	@Override
+    	public void onPrepareLoad(Drawable d){
+		// Fires bitmap on prepare.
+    	}
+};
+//Use this target for the Picasso.into() method
 
-    @Override
-    public void onBitmapFailed(Drawable drawable) {
-	//on failed do something
-    }
-
-    @Override
-    public void onPrepareLoad(Drawable drawable) {
-	//on prepare loading do something
-    }
-});			
+Picasso.get().load("https://i.imgur.com/DvpvklR.png").into(target);
+			
 ```
 
 
 ​
-## Image Blur Backdrop Offset
+# Image Blur Backdrop Offset
 
 <img src="apk/preview/app_preview_offset.jpg" width="650" />
 
@@ -132,7 +136,7 @@ blurshadowimageview.setImageBitmap(bitmap);
 ```
 
 
-## Documentation 
+# Documentation 
 
  |Name|Format|Default|Details|
  |:---:|:---:|:---:|:---:|
@@ -141,10 +145,14 @@ blurshadowimageview.setImageBitmap(bitmap);
  |app:v_shadowOffset|dimension|40dp|configure the distance between the Image and the Shadow|
  
  
-## Find this library useful? :heart:
-Support it by joining [stargazers](https://github.com/virtualvivek/BlurShadowImageView/stargazers) for this repository. :star: 
+# Find this library useful? :heart:
+Support it by joining [stargazers](https://github.com/virtualvivek/BlurShadowImageView/stargazers) for this repository. :star:
 
-## License
+# Branches
+Branch -version 2.x [ <b>AndroidX</b> ] Current <a href="https://github.com/virtualvivek/BlurShadowImageView/tree/master">View Branch</a><br/>
+Branch -version 1.x <b>Support Library</b> <a href="https://github.com/virtualvivek/BlurShadowImageView/tree/supportLibrary">View Branch</a>
+
+# License
 
 BlurShadowImageView is licensed under `MIT license`. View [license](https://github.com/virtualvivek/BlurShadowImageView/blob/master/LICENSE).<br>
 Copyright (c) 2020-21 ` Vivek Verma `
