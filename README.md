@@ -63,7 +63,6 @@ dependencies {
 	}
  ```
 
-​
 # How to use   
 ## Using Xml to config
 
@@ -97,7 +96,6 @@ blurshadowimageview.setImageBitmap(bitmap);
 
 ```
 
-​
 #  Load image with Picasso
 
 <img align="right" src="apk/preview/app_load_online.gif" width="280" />
@@ -127,7 +125,6 @@ Picasso.get().load("https://i.imgur.com/DvpvklR.png").into(target);
 ```
 
 
-​
 # Image Blur Backdrop Offset
 
 <img src="apk/preview/app_preview_offset.png" width="650" />
