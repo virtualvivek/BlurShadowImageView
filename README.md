@@ -41,7 +41,7 @@ Download the demo app <code><b>.apk</b></code> file here
 <img src="apk/preview/app_icon_demo_app.png" width="280"
       alt="Demo App" /></a>
       
-# Scan to Download      
+## Scan to Download      
 <img src="apk/app_barcode.PNG" width="180" alt="Demo App" />
 
 
