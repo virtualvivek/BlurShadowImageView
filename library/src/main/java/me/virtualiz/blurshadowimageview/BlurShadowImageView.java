@@ -1,11 +1,11 @@
 /*
- * Copyright 2020 vivekverma
+ * Copyright 2021 vivekverma
  *
  * Licensed under the MIT License, (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
  *
- * https://github.com/virtualvivek/BlurShadowImageView/blob/master/LICENSE
+ * https://github.com/virtualvivek/BlurShadowImageView/blob/main/LICENSE
  *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
@@ -20,6 +20,7 @@ import android.content.res.Resources;
 import android.content.res.TypedArray;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Color;
 import android.graphics.PorterDuff;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
@@ -34,8 +35,8 @@ import me.virtualiz.blurshadowimageview.helper.RoundImageView;
 /**
  * ================================================
  * virtualvivek7@gmail.com
- * -version：2.0
- * -created ：2021/04/10
+ * -version：2.1
+ * -created ：2021/04/12
  * Developed by：
  * Vivek Verma
  * ================================================
@@ -62,13 +63,16 @@ public class BlurShadowImageView extends RelativeLayout {
     }
     private void initView(Context context, AttributeSet attrs) {
 
-        FadingImageView blurImageView;
-        int imageresource;
+        RoundImageView roundImageView = new RoundImageView(context);
+        FadingImageView blurImageView = new FadingImageView(context);
+
+        int imageresource, imageScaleTypeIndex;
 
         setGravity(Gravity.CENTER);
         setLayerType(LAYER_TYPE_SOFTWARE, null);
 
         imageresource = -1;
+
         if (attrs != null) {
             TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.BlurShadowImageView);
 
@@ -77,18 +81,26 @@ public class BlurShadowImageView extends RelativeLayout {
             }
             imageRound = a.getDimensionPixelSize(R.styleable.BlurShadowImageView_v_imageRound, imageRound);
             shadowOffset = a.getDimensionPixelSize(R.styleable.BlurShadowImageView_v_shadowOffset, shadowOffset);
-            a.recycle();
+            imageScaleTypeIndex = a.getInt(R.styleable.BlurShadowImageView_android_scaleType, -1);
 
-        } else {
+            if (imageScaleTypeIndex >= 0) {
+                ImageView.ScaleType[] types = ImageView.ScaleType.values();
+                ImageView.ScaleType scaleType = types[imageScaleTypeIndex];
+                roundImageView.setScaleType(scaleType);
+            }
+            else {
+                roundImageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
+            }
+
+            a.recycle();
+        }
+        else {
             float density = context.getResources().getDisplayMetrics().density;
             imageRound = (int) (imageRound * density);
             imageresource = -1;
         }
 
         //---- Layer ImageView ---------------------------------------------------------------------
-        RoundImageView roundImageView = new RoundImageView(context);
-        roundImageView.setScaleType(ImageView.ScaleType.FIT_XY);
-
         if (imageresource == -1) {
             roundImageView.setImageResource(android.R.color.transparent);
         } else {
@@ -96,12 +108,13 @@ public class BlurShadowImageView extends RelativeLayout {
         }
 
 
-        //---- Layer blurView ----------------------------------------------------------------------
-        blurImageView = new FadingImageView(context);
+        //---- Layer BlurView ----------------------------------------------------------------------
         blurImageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
         //Blurring techinique without renderscript --------------
         if (imageresource == -1) {
-            blurImageView.setImageResource(android.R.color.transparent);
+            Bitmap image = Bitmap.createBitmap(20, 20, Bitmap.Config.ARGB_8888);
+            image.eraseColor(Color.LTGRAY);
+            blurImageView.setImageBitmap(image);
         }
         else {
             Bitmap bitmap = BitmapFactory.decodeResource(getResources(),imageresource);
