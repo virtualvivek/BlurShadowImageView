@@ -35,13 +35,13 @@
 
 # Download Demo App
 
-Download the demo app <code><b>.apk</b></code> file here 
+Download the demo app <code><b>.apk</b></code> file here
 
 <a href="apk/BlurShadow.apk">
 <img src="apk/preview/app_icon_demo_app.png" width="280"
       alt="Demo App" /></a>
       
-## Scan to Download      
+## Scan to Download
 <img src="apk/app_barcode.PNG" width="180" alt="Demo App" />
 
 
@@ -59,11 +59,11 @@ allprojects {
 Add the following dependency to your app build.gradle file :
 ```js
 dependencies {
-	        implementation 'com.github.virtualvivek:BlurShadowImageView:2.0'
+	        implementation 'com.github.virtualvivek:BlurShadowImageView:2.1'
 	}
  ```
 
-# How to use   
+# How to use
 ## Using Xml to config
 
 ```xml
@@ -72,6 +72,7 @@ dependencies {
 	android:layout_width="200dp"
 	android:layout_height="220dp"
 	android:layout_gravity="center"
+	android:scaleType="centerCrop"
 	app:v_shadowOffset="40dp"
 	app:v_imageRound="20dp"
 	app:v_imageSrc="@drawable/nature" />
@@ -83,16 +84,16 @@ dependencies {
 BlurShadowImageView blurshadowimageview = findViewById(R.id.blurSImageView);
 
 //Sets Border Round Radius
-blurshadowimageview.setRound((int) value);  
+blurshadowimageview.setRound((int) value);
 
 //Sets Image Resource
-blurshadowimageview.setImageResource(ImgRes);  
+blurshadowimageview.setImageResource(ImgRes);
 
 //Sets Image Drawable
-blurshadowimageview.setImageDrawable(drawable);  
+blurshadowimageview.setImageDrawable(drawable);
 
 //Sets Image Bitmap
-blurshadowimageview.setImageBitmap(bitmap);  
+blurshadowimageview.setImageBitmap(bitmap);
 
 ```
 
@@ -133,13 +134,19 @@ Picasso.get().load("https://i.imgur.com/DvpvklR.png").into(target);
 ```
 
 
-# Documentation 
+# Documentation
 
- |Name|Format|Default|Details|
- |:---:|:---:|:---:|:---:|
- |app:v_imageSrc    |reference|image|sets image to the ImageView|
- |app:v_imageRound  |dimension|10dp|sets border radius to the ImageView|
- |app:v_shadowOffset|dimension|40dp|configure the distance between the Image and the Shadow|
+#### app:v_imageSrc
+#### app:v_imageRound
+#### app:v_shadowOffset
+#### android:scaleType
+
+|Name|Format|Default|Details|
+|:---:|:---:|:---:|:---:|
+|app:v_imageSrc    |reference|image|sets image to the ImageView|
+|app:v_imageRound  |dimension|10dp|sets border radius to the ImageView|
+|app:v_shadowOffset|dimension|40dp|configure the distance between the Image and the Shadow|
+|android:scaleType|string|"centerCrop"|configure the Image scaling|
  
  
 ## Find this library useful? :heart:
