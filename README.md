@@ -136,10 +136,10 @@ Picasso.get().load("https://i.imgur.com/DvpvklR.png").into(target);
 
 # Documentation
 
-#### app:v_imageSrc: ["../refrence"]
-#### app:v_imageRound: [int]dp
-#### app:v_shadowOffset: [int]dp
-#### android:scaleType: ["center", "centerCrop", "fitEnd", "fitCenter", "fitXY", "centerInside", "fitStart", "matrix"]
+#### app:v_imageSrc: _["../refrence"]_
+#### app:v_imageRound: _[int]dp_
+#### app:v_shadowOffset: _[int]dp_
+#### android:scaleType: _["center", "centerCrop", "fitEnd", "fitCenter", "fitXY", "centerInside", "fitStart", "matrix"]_
 
 |Name|Format|Default|Details|
 |:---:|:---:|:---:|:---:|
