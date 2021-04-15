@@ -67,16 +67,14 @@ dependencies {
 ## Using Xml to config
 
 ```xml
-
  <me.virtualiz.blurshadowimageview.BlurShadowImageView
-	android:layout_width="200dp"
-	android:layout_height="220dp"
-	android:layout_gravity="center"
-	android:scaleType="centerCrop"
-	app:v_shadowOffset="40dp"
-	app:v_imageRound="20dp"
-	app:v_imageSrc="@drawable/nature" />
-
+            android:layout_width="200dp"
+	    android:layout_height="220dp"
+	    android:layout_gravity="center"
+	    android:scaleType="centerCrop"
+	    app:v_shadowOffset="40dp"
+	    app:v_imageRound="20dp"
+	    app:v_imageSrc="@drawable/nature" />
 ```
 
 ##  Use Java code to config
