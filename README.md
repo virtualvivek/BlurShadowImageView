@@ -47,7 +47,7 @@ Download the demo app <code><b>.apk</b></code> file here
 
 # Installation
 Add it in your root build.gradle at the end of repositories :
-```js
+```gradle
 allprojects {
 		repositories {
 			...
@@ -57,7 +57,7 @@ allprojects {
  ```
 
 Add the following dependency to your app build.gradle file :
-```js
+```gradle
 dependencies {
 	        implementation 'com.github.virtualvivek:BlurShadowImageView:2.1'
 	}
@@ -69,7 +69,7 @@ dependencies {
 ```xml
  <me.virtualiz.blurshadowimageview.BlurShadowImageView
             android:layout_width="200dp"
-	    android:layout_height="220dp"
+	    android:layout_height="200dp"
 	    android:layout_gravity="center"
 	    android:scaleType="centerCrop"
 	    app:v_shadowOffset="40dp"
