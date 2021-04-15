@@ -48,18 +48,18 @@ Download the demo app <code><b>.apk</b></code> file here
 # Installation
 Add it in your root build.gradle at the end of repositories :
 ```gradle
-allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+ allprojects {
+     repositories {
+         ...
+	 maven { url 'https://jitpack.io' }
+	  }
 	}
  ```
 
 Add the following dependency to your app build.gradle file :
 ```gradle
-dependencies {
-	        implementation 'com.github.virtualvivek:BlurShadowImageView:2.1'
+ dependencies {
+     implementation 'com.github.virtualvivek:BlurShadowImageView:2.1'
 	}
  ```
 
@@ -68,13 +68,13 @@ dependencies {
 
 ```xml
  <me.virtualiz.blurshadowimageview.BlurShadowImageView
-            android:layout_width="200dp"
-	    android:layout_height="200dp"
-	    android:layout_gravity="center"
-	    android:scaleType="centerCrop"
-	    app:v_shadowOffset="40dp"
-	    app:v_imageRound="20dp"
-	    app:v_imageSrc="@drawable/nature" />
+     android:layout_width="200dp"
+     android:layout_height="200dp"
+     android:layout_gravity="center"
+     android:scaleType="centerCrop"
+     app:v_shadowOffset="40dp"
+     app:v_imageRound="20dp"
+     app:v_imageSrc="@drawable/nature" />
 ```
 
 ##  Use Java code to config
