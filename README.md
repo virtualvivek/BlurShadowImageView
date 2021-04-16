@@ -47,19 +47,19 @@ Download the demo app <code><b>.apk</b></code> file here
 
 # Installation
 Add it in your root build.gradle at the end of repositories :
-```js
-allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+```gradle
+ allprojects {
+     repositories {
+         ...
+	 maven { url 'https://jitpack.io' }
+	  }
 	}
  ```
 
 Add the following dependency to your app build.gradle file :
-```js
-dependencies {
-	        implementation 'com.github.virtualvivek:BlurShadowImageView:2.1'
+```gradle
+ dependencies {
+     implementation 'com.github.virtualvivek:BlurShadowImageView:2.1'
 	}
  ```
 
@@ -67,16 +67,14 @@ dependencies {
 ## Using Xml to config
 
 ```xml
-
  <me.virtualiz.blurshadowimageview.BlurShadowImageView
-	android:layout_width="200dp"
-	android:layout_height="220dp"
-	android:layout_gravity="center"
-	android:scaleType="centerCrop"
-	app:v_shadowOffset="40dp"
-	app:v_imageRound="20dp"
-	app:v_imageSrc="@drawable/nature" />
-
+     android:layout_width="200dp"
+     android:layout_height="200dp"
+     android:layout_gravity="center"
+     android:scaleType="centerCrop"
+     app:v_shadowOffset="40dp"
+     app:v_imageRound="20dp"
+     app:v_imageSrc="@drawable/nature" />
 ```
 
 ##  Use Java code to config
@@ -136,10 +134,10 @@ Picasso.get().load("https://i.imgur.com/DvpvklR.png").into(target);
 
 # Documentation
 
-#### app:v_imageSrc
-#### app:v_imageRound
-#### app:v_shadowOffset
-#### android:scaleType
+#### app:v_imageSrc: _["../refrence"]_
+#### app:v_imageRound: _[int]dp_
+#### app:v_shadowOffset: _[int]dp_
+#### android:scaleType: _["center", "centerCrop", "fitEnd", "fitCenter", "fitXY", "centerInside", "fitStart", "matrix"]_
 
 |Name|Format|Default|Details|
 |:---:|:---:|:---:|:---:|
