@@ -1,4 +1,4 @@
-<h2 align="center"> <img src="apk/preview/app_icon_title.png" width="400" /> </h2>
+<h2 align="center"> <img src="apk/preview/app_icon_title.png" width="500" /> </h2>
 
 <p align="center">
  
