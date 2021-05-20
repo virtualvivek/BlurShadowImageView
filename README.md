@@ -135,10 +135,18 @@ Picasso.get().load("https://i.imgur.com/DvpvklR.png").into(target);
 
 # Documentation
 
-#### app:v_imageSrc: _["../refrence"]_
-#### app:v_imageRound: _[int]dp_
-#### app:v_shadowOffset: _[int]dp_
-#### android:scaleType: _["center", "centerCrop", "fitEnd", "fitCenter", "fitXY", "centerInside", "fitStart", "matrix"]_
+```yaml
+app:v_imageSrc: ["../refrence"]
+```
+```yaml
+app:v_imageRound: [int]dp
+```
+```yaml
+app:v_shadowOffset: [int]dp
+```
+```yaml
+android:scaleType: ["center","centerCrop","fitEnd","fitCenter","fitXY","centerInside","fitStart","matrix"]
+```
 
 |Name|Format|Default|Details|
 |:---:|:---:|:---:|:---:|
@@ -152,7 +160,7 @@ Picasso.get().load("https://i.imgur.com/DvpvklR.png").into(target);
 Support it by joining [stargazers](https://github.com/virtualvivek/BlurShadowImageView/stargazers) for this repository. :star:
 
 # Branches
-Branch -version 2.x [ <b>AndroidX</b> ] <a href="https://github.com/virtualvivek/BlurShadowImageView/tree/master">Current Branch</a><br/>
+Branch -version 2.x [ <b>AndroidX</b> ] <a href="https://github.com/virtualvivek/BlurShadowImageView/tree/master">‣Current Branch</a><br/>
 Branch -version 1.x <b>Support Library</b> <a href="https://github.com/virtualvivek/BlurShadowImageView/tree/supportLibrary">View Branch</a>
 
 # License
