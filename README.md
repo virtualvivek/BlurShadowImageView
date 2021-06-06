@@ -157,13 +157,13 @@ android:scaleType: ["center","centerCrop","fitEnd","fitCenter","fitXY","centerIn
  
  
 ## Find this library useful? :heart:
-Support it by joining [stargazers](https://github.com/virtualvivek/BlurShadowImageView/stargazers) for this repository. :star:
+Support it by joining [**stargazers**](https://github.com/virtualvivek/BlurShadowImageView/stargazers) for this repository. :star:
 
 # Branches
-Branch -version 2.x [ <b>AndroidX</b> ] <a href="https://github.com/virtualvivek/BlurShadowImageView/tree/master">‣Current Branch</a><br/>
+Branch -version 2.x [ <b>AndroidX</b> ] <a href="https://github.com/virtualvivek/BlurShadowImageView/tree/master"><b>‣ </b>Current Branch</a><br/>
 Branch -version 1.x <b>Support Library</b> <a href="https://github.com/virtualvivek/BlurShadowImageView/tree/supportLibrary">View Branch</a>
 
 # License
 
 BlurShadowImageView is licensed under `MIT license`. View [license](https://github.com/virtualvivek/BlurShadowImageView/blob/master/LICENSE).<br>
-Copyright (c) 2020-21 ` Vivek Verma `
+Copyright (c) 2020-21 [**Vivek Verma**](https://github.com/virtualvivek)
