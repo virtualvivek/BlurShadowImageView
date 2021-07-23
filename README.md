@@ -18,7 +18,7 @@
   </a>
   
   <a href="https://www.codacy.com/gh/virtualvivek/BlurShadowImageView/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=virtualvivek/BlurShadowImageView&amp;utm_campaign=Badge_Grade">
-    <img src="https://app.codacy.com/project/badge/Grade/86da5d838ef24e0dbcf482b049b8c27c?style=flat-square"
+    <img src="https://img.shields.io/codacy/grade/86da5d838ef24e0dbcf482b049b8c27c?logo=codacy&style=flat-square"
       alt="Codacy Badge" />
   </a>
   
