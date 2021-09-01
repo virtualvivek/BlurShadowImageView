@@ -35,8 +35,8 @@ import me.virtualiz.blurshadowimageview.helper.RoundImageView;
 /**
  * ================================================
  * virtualvivek7@gmail.com
- * -version：2.1
- * -created ：2021/04/12
+ * -version：4.0
+ * -updated ：1 Sep 2021
  * Developed by：
  * Vivek Verma
  * ================================================
@@ -132,12 +132,15 @@ public class BlurShadowImageView extends RelativeLayout {
             }
         }
 
-
+        // Setting Layour For BlurView --
         LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,LinearLayout.LayoutParams.MATCH_PARENT);
         blurImageView.setLayoutParams(lp);
 
-        LayoutParams lp2 = new LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
+        // Setting Layout for RoundImageView --
+        RelativeLayout.LayoutParams lp2 = new RelativeLayout.LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT);
+        lp2.addRule(RelativeLayout.CENTER_HORIZONTAL, RelativeLayout.TRUE);
         lp2.setMargins(dpToPx(15),0,dpToPx(15),shadowOffset);
+
         roundImageView.setLayoutParams(lp2);
 
         addView(blurImageView);
