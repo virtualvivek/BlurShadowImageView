@@ -1,33 +1,34 @@
-<h2 align="center"> <img src="apk/preview/app_icon_title.png" width="400" /> </h2>
+<h2 align="center"> <img src="apk/preview/app_icon_title.png" width="500" /> </h2>
 
 <p align="center">
  
  <a href="https://android.com">
-    <img src="https://img.shields.io/badge/for-android-green.svg?style=flat&logo=android&color=3aab60"
+    <img src="https://img.shields.io/badge/for-android-green.svg?style=flat-square&logo=android&color=3aab60"
       alt="Android" />
   </a>
   
   <a href="https://developer.android.com/about/versions/android-5.0.html">
-    <img src="https://img.shields.io/badge/MinSdk-21-blue.svg"
+    <img src="https://img.shields.io/badge/MinSdk-21-blue.svg?style=flat-square"
       alt="MinSDK" />
   </a>
   
   <a href="https://jitpack.io/#virtualvivek/BlurShadowImageView">
-    <img src="https://jitpack.io/v/virtualvivek/BlurShadowImageView.svg?color=34495e"
+    <img src="https://jitpack.io/v/virtualvivek/BlurShadowImageView.svg?style=flat-square&color=34495e"
       alt="JitPack" />
   </a>
   
   <a href="https://www.codacy.com/gh/virtualvivek/BlurShadowImageView/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=virtualvivek/BlurShadowImageView&amp;utm_campaign=Badge_Grade">
-    <img src="https://app.codacy.com/project/badge/Grade/86da5d838ef24e0dbcf482b049b8c27c"
+    <img src="https://img.shields.io/codacy/grade/86da5d838ef24e0dbcf482b049b8c27c?logo=codacy&style=flat-square"
       alt="Codacy Badge" />
   </a>
   
   <a href="https://github.com/virtualvivek/BlurShadowImageView/blob/master/library/src/main/java/me/virtualiz/blurshadowimageview/BlurShadowImageView.java">
-    <img src="https://img.shields.io/github/size/virtualvivek/BlurShadowImageView/library/src/main/java/me/virtualiz/blurshadowimageview/BlurShadowImageView.java?color=16ab9c&label=Library%20Size"
+    <img src="https://img.shields.io/github/size/virtualvivek/BlurShadowImageView/library/src/main/java/me/virtualiz/blurshadowimageview/BlurShadowImageView.java?style=flat-square&color=16ab9c&label=Library%20Size"
       alt="Library Size" />
   </a>
   
 </p>
+
 
 <p align="center">This library provides blurred drop shadows to <b>ImageView</b> similar to <code>iOS backdrop shadows</code>.Provides fast canvas draw as <b>no renderscript</b> needed .The similar shadow blurred effects can also be seen in <i>iOS Music App.</i></p>
 
@@ -128,16 +129,22 @@ Picasso.get().load("https://i.imgur.com/DvpvklR.png").into(target);
 
 <img src="apk/preview/app_preview_offset.png" width="650" />
 
-```
-```
 
 
 # Documentation
 
-#### app:v_imageSrc: _["../refrence"]_
-#### app:v_imageRound: _[int]dp_
-#### app:v_shadowOffset: _[int]dp_
-#### android:scaleType: _["center", "centerCrop", "fitEnd", "fitCenter", "fitXY", "centerInside", "fitStart", "matrix"]_
+```yaml
+app:v_imageSrc: "../refrence"
+```
+```yaml
+app:v_imageRound: "(int)dp"
+```
+```yaml
+app:v_shadowOffset: "(int)dp"
+```
+```yaml
+android:scaleType: ["center","centerCrop","fitEnd","fitCenter","fitXY","centerInside","fitStart","matrix"]
+```
 
 |Name|Format|Default|Details|
 |:---:|:---:|:---:|:---:|
@@ -148,13 +155,13 @@ Picasso.get().load("https://i.imgur.com/DvpvklR.png").into(target);
  
  
 ## Find this library useful? :heart:
-Support it by joining [stargazers](https://github.com/virtualvivek/BlurShadowImageView/stargazers) for this repository. :star:
+Support it by joining [**stargazers**](https://github.com/virtualvivek/BlurShadowImageView/stargazers) for this repository. :star:
 
 # Branches
-Branch -version 2.x [ <b>AndroidX</b> ] <a href="https://github.com/virtualvivek/BlurShadowImageView/tree/master">Current Branch</a><br/>
+Branch -version 2.x [ <b>AndroidX</b> ] <a href="https://github.com/virtualvivek/BlurShadowImageView/tree/master"><b>‣ </b>Current Branch</a><br/>
 Branch -version 1.x <b>Support Library</b> <a href="https://github.com/virtualvivek/BlurShadowImageView/tree/supportLibrary">View Branch</a>
 
 # License
 
 BlurShadowImageView is licensed under `MIT license`. View [license](https://github.com/virtualvivek/BlurShadowImageView/blob/master/LICENSE).<br>
-Copyright (c) 2020-21 ` Vivek Verma `
+Copyright (c) 2020-21 [**Vivek Verma**](https://github.com/virtualvivek)
