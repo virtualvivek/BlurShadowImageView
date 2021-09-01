@@ -60,7 +60,7 @@ Add it in your root build.gradle at the end of repositories :
 Add the following dependency to your app build.gradle file :
 ```gradle
  dependencies {
-     implementation 'com.github.virtualvivek:BlurShadowImageView:2.1'
+     implementation 'com.github.virtualvivek:BlurShadowImageView:4.0'
 	}
  ```
 
@@ -158,7 +158,7 @@ android:scaleType: ["center","centerCrop","fitEnd","fitCenter","fitXY","centerIn
 Support it by joining [**stargazers**](https://github.com/virtualvivek/BlurShadowImageView/stargazers) for this repository. :star:
 
 # Branches
-Branch -version 2.x [ <b>AndroidX</b> ] <a href="https://github.com/virtualvivek/BlurShadowImageView/tree/master"><b>‣ </b>Current Branch</a><br/>
+Branch -version 4.x [ <b>AndroidX</b> ] <a href="https://github.com/virtualvivek/BlurShadowImageView/tree/master"><b>‣ </b>Current Branch</a><br/>
 Branch -version 1.x <b>Support Library</b> <a href="https://github.com/virtualvivek/BlurShadowImageView/tree/supportLibrary">View Branch</a>
 
 # License
