@@ -32,7 +32,7 @@
 
 <p align="center">This library provides blurred drop shadows to <b>ImageView</b> similar to <code>iOS backdrop shadows</code>.Provides fast canvas draw as <b>no renderscript</b> needed .The similar shadow blurred effects can also be seen in <i>iOS Music App.</i></p>
 
-<p align="center"><img src="apk/preview/app_icon_demo.png" width="620" /> </p> 
+<p align="center"><img src="apk/preview/app_icon_demo.png" width="520" /> </p> 
 
 # Download Demo App
 
