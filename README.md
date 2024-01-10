@@ -164,4 +164,4 @@ Branch -version 1.x <b>Support Library</b> <a href="https://github.com/virtualvi
 # License
 
 BlurShadowImageView is licensed under `MIT license`. View [license](https://github.com/virtualvivek/BlurShadowImageView/blob/master/LICENSE).<br>
-Copyright (c) 2020-21 [**Vivek Verma**](https://github.com/virtualvivek)
+Copyright (c) 2020-24 [**Vivek Verma**](https://github.com/virtualvivek)
